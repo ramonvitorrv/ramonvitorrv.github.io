@@ -3,14 +3,47 @@
     <head>
        <meta charset="UTF-8">
        <title>Portifólio</title>
+       <style>
+           body{
+               background-color: #E8EBE4;
+           }
+
+           #meu_nome{
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           }
+
+           #descrição_foto{
+               font-family: monospace;
+           }
+
+           #nome_lista{
+               font-size: 20px;
+           }
+
+           #sobre_mim{
+               font-size: 30px;
+           }
+
+           #resido{
+               font-weight: 900;
+           }
+       </style>
     </head>
 
     <body>
-        <h1 id="nome"><i>Ramon Vitor da Cruz Silva</i></h1>
-        <hr><br/>
+        <h1 id="meu_nome"><i>Ramon Vitor da Cruz Silva</i></h1>
+        <hr>
+        <h3><i>Índice:</i></h3>
+        <ol>
+            <li id="nome_lista"><a href="#meu_nome"><i>Nome.</i></a></li>
+            <li><a href="#descrição_foto"><i>Descrição da foto.</i></a></li>
+            <li id="sobre_mim"><i><a href="#sobre_mim">Descrição sobre mim.</a></i></li>
+            <li><i><a href="#habilidades">Habilidades</a></i></li>
+        </ol>
         <img id="minha_foto" src="minha_foto.jpg" alt="Minha foto" width="300px">
         <p id="descrição_foto">Foto tirada em março de 2021.</p><br/>
-        <p id="sobre_mim">Sou brasileiro, natural de Feira de Santana/BA.</p><br/>
+        <p>Olá, sou estudante de desenvolvimento Web | TRYBE</p><br/>
+        <p id="resido">Sou brasileiro, natural de Feira de Santana/BA.</p><br/>
 
         <h2 id="habilidades">Habilidades:</h2>
         <ol>
@@ -19,15 +52,7 @@
         </ol><br>
 
         <a href="#minha_foto">Link para a foto.</a><br/>
-        <a href="https://adrenaline.com.br/" target="_blank">Fórum Adrenaline.</a><br/>
-
-        <h3><i>Índice:</i></h3>
-        <ol>
-            <li><i><a href="#nome">Nome.</a></i></li>
-            <li><i><a href="#descrição_foto">Descrição da foto.</a></i></li>
-            <li><i><a href="#sobre_mim">Descrição sobre mim.</a></i></li>
-            <li><i><a href="#habilidades">Habilidades</a></i></li>
-        </ol>
+        <a href="https://adrenaline.com.br/" target="_blank">Fórum Adrenaline.</a><br/>  
     </body>
 
 </html>
