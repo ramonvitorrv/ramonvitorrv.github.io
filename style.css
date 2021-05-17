@@ -38,6 +38,6 @@ body {
     margin-bottom: 40px;
 }
 
-.lista-2:nth-child(odd) {
+.lista-2 li:nth-child(odd) {
     background-color: crimson;
 }
