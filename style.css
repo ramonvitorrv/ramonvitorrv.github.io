@@ -1,23 +1,43 @@
-body{
+body {
     background-color: #fdfcdc;
 }
 
-#meu_nome{
+.meu_nome {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
-#descrição_foto{
+
+.descrição_foto {
     font-family: monospace;
+    float: right;
+    margin-right: 25%;
+    margin-top: 200px;   
 }
 
-#nome_lista{
+.minha_foto {
+    margin-left: 25%;
+    margin-bottom: 40px; 
+    padding: 5px;
+    background-color: crimson; 
+}
+
+.nome_lista {
     font-size: 20px;
 }
 
-#sobre_mim{
+.sobre_mim {
     font-size: 30px;
 }
 
-#resido{
+#resido {
     font-weight: 900;
+}
+
+.lista-1 {
+    margin-bottom: 40px;
+}
+
+.lista-2:nth-child(odd) {
+    background-color: crimson;
 }
